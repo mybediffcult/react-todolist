@@ -1,0 +1,150 @@
+body{
+    margin:0;
+	padding:0;
+	font-size:16px;
+	background:#CDCDCD;
+    }
+div{
+	margin: 0;
+}
+header{
+	height: 70px;
+	background: rgba(47,47,47,0.98);
+}
+section{
+	margin:0 auto;
+}
+section>label{
+	margin:6px 0;
+	float: left;
+	width: 100px;
+	line-height: 50px;
+	font-size: 30px;
+	color: #DDD;
+	cursor: pointer;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+}
+
+section>input{
+	float: right;
+	margin:18px 0px;
+	text-indent: 10px;
+	height: 29px;
+	line-height: 25px;
+	border-radius: 5px;
+	width: 60%;
+	outline: none;
+	border:none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.24),0 1px 6px rgba(0,0,0,0.45) inset;
+}
+div{
+	margin: 0 ;
+	padding: 0;
+}
+h2{
+	position: relative;
+}
+h2>span{
+ position: absolute;
+ width: 17px;
+ top: 2px;
+ right:5px;
+ display: inline-block;
+ padding: 0 5px;
+ height: 20px;
+ border-radius: 10px;
+ background: #E6E6FA;
+ line-height: 22px;
+ text-align: center;
+ color: #666;
+ font-size: 14px; 
+}
+ol,ul{
+ list-style: none;
+ padding: 0;
+}
+ol li{
+	cursor: move;
+
+}
+li{
+text-indent: 21px;
+height: 32px;
+line-height: 32px;
+background: #fff;
+position: relative;
+margin-bottom: 10px;
+padding: 0 45px;
+border-radius: 3px;
+border-left: 5px solid #629A9C;
+box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+ul li{
+opacity: 0.5;
+}
+li  input{
+position: absolute;
+top: 2px;
+left: 10px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+}
+ul li input[type=checkbox]:checked=checked
+p{
+	margin: 0;
+	width: 40%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	cursor:text;
+}
+li a{
+	position: absolute;
+	text-indent: 0;
+    top: 4px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    border: 6px double #FFF;
+    background: #CCC;
+    line-height: 14px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+footer{
+	text-align: center;
+	font-size: 17px;
+}
+.editState{
+	margin: 0;
+	width: 40%;
+	left:50px;
+
+	cursor:text;
+}
+.clear{
+	position: fixed;
+	display: block;
+	border:none;
+	color: black;
+	background: #10b7bd;
+	border-radius: 20px;
+	cursor:pointer;
+	right: 0;
+	top: 13px;
+	font-size: 30px;
+	height: 36px;
+	width: 80px;
+	text-decoration: none;
+}
+@media screen and (max-device-width:620px) {section{width: 96%;padding:0 2%;}}
+@media screen and (min-width:620px) {section{width: 620px;padding: 0 10px;}}
